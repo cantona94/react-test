@@ -1,0 +1,15 @@
+.conteiner {
+  max-width: 1120px;
+  margin: auto;
+
+  .users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .error {
+    text-align: center;
+    margin: 10px;
+  }
+}

@@ -1,0 +1,86 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #bcc3d080;
+}
+
+.popup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 468px;
+  background: #fff;
+  border-radius: 16px;
+
+  &__name {
+    margin: 25px auto;
+    width: 452px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+
+    svg:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__table {
+    margin: 25px auto;
+    width: 452px;
+
+    tr {
+      .property {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0em;
+        padding-right: 40px;
+        padding-bottom: 12px;
+        vertical-align: top;
+      }
+
+      .value {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0em;
+        padding-bottom: 12px;
+        color: #8189a3;
+      }
+    }
+  }
+
+  &__info {
+    width: 452px;
+    height: 90px;
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #262c40;
+  }
+
+  span {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8189a3;
+  }
+}
